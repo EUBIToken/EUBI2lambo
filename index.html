@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>EUBI2lambo</title>
+		<link rel='stylesheet' href='styles.css'>
+	</head>
+	<body>
+		<h1>How long will it take to buy a Lamborghini with bEUBI profit shares?</h1>
+		<h2>step 1 - enter your bEUBI token balance</h2>
+		<input type="number" id="balance" min="0" max="10000000">
+		<h2>step 2 - select your Lamborghini</h2>
+		<img src='aventador2.jpg' onclick='selectLambo("Lamborghini Aventador", 424000);'>
+		<img src='huracan2.jpg' onclick='selectLambo("Lamborghini Huracan", 260000);'>
+		<img src='urus.jpg' onclick='selectLambo("Lamborghini Urus", 200000);'>
+		<h2 id='lamboName'></h2>
+		<h2 id='lamboTime'></h2>
+		<script src='scripts.js'></script>
+	</body>
+</html>
